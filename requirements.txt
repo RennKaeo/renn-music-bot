@@ -1,0 +1,6 @@
+python-telegram-bot>=22
+yt-dlp
+mutagen
+Pillow
+requests
+shazamio>=0.8,<1

@@ -1,0 +1,27 @@
+# rahasia / env
+*.env
+.env*
+run.sh
+.gh-token
+cookies.txt
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# data & unduhan bot
+downloads/
+bot_data.db
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.bak.*
+*.stable.*
+*.backup*
+
+# sistem
+.DS_Store
+*.log

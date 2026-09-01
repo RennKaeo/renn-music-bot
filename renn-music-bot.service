@@ -1,0 +1,19 @@
+[Unit]
+Description=Renn Music Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/yt-music-bot
+Environment=BOT_TOKEN=ISI_TOKEN_DARI_BOTFATHER
+# optional:
+# Environment=AUDD_API_TOKEN=
+# Environment=NVIDIA_API_KEY=
+# Environment=OPENAI_API_KEY=
+ExecStart=/root/yt-music-bot/venv/bin/python /root/yt-music-bot/bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
